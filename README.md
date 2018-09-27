@@ -1,17 +1,17 @@
-hello
 
-just for test
-
-a0aa
-
+# Tianchi Competition
 
 ---
- test git diff
 
- 2
+## Data_Struc
 
- tangzhengzheng 
+-train
+  --label+str(label)+Id.jpg
+-test
+  --Id.jpg
+  
+---
 
- hello
+## Usage
 
- ubuntu test
+    1. run main.py?
