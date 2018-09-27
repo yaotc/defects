@@ -3,15 +3,17 @@
 
 ---
 
-## Data_Struc
+## Data_Structure
 
--train
+```
 
-  --label+str(label)+Id.jpg
-
--test
-
-  --Id.jpg
+./dataset
+├── train 
+│   └── label+str(label)+Id.jpg  # like 5label09182638.jpg
+└── test
+    └── Id.jpg   # like 12.jpg
+    
+```
 
 ---
 
