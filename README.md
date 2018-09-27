@@ -4,7 +4,6 @@ just for test
 
 a0aa
 
-test new ssh
 
 ---
  test git diff
@@ -12,3 +11,5 @@ test new ssh
  2
 
  tangzhengzheng 
+
+ hello
