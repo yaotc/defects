@@ -4,9 +4,10 @@ class DefaultConfig(object):
 
     env             = 'default'
 
-    model           = 'SeResnet50'
+    # model           = 'SeResnet50'
     # model = 'se_resnet101'
-    #model           = 'ResNet34'
+    model = 'senet154'
+    # model           = 'ResNet34'
     # model   = 'AlexNet'
 
     train_data_root = '/home/ailab/yaotc/defects/data/train/'
@@ -26,8 +27,8 @@ class DefaultConfig(object):
     debug_file   = '/tmp/debug'
     result_file  = 'result.csv'
 
-    max_epoch    = 100
-    lr           = 0.001
+    max_epoch    = 80
+    lr           = 0.0001
     lr_decay     = 0.95
 
     weight_decay = 1e-4

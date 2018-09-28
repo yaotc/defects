@@ -99,8 +99,8 @@ def train():
 
 
     # step3: define loss function and optimize
-    # criterion = nn.CrossEntropyLoss()
-    criterion = FocalLoss(class_num=12)
+    criterion = nn.CrossEntropyLoss()
+    #criterion = FocalLoss(class_num=12)
     if opt.use_gpu: criterion.cuda()
 
     # define optimize method
