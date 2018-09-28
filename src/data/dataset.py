@@ -56,7 +56,9 @@ class DefectsData(data.Dataset):
                 self.transforms = T.Compose([
                     T.Resize(500), 
                     T.RandomResizedCrop(480),
-                    T.RandomHorizontalFlip(),
+                    T.RandomHorizontalFlip(),#以0.5的概率水平翻转
+                    T.RandomVerticalFlip(),#以0.5的概率垂直翻转
+                    T.RandomRotation(10), #在（-10， 10）范围内旋转
                     T.ToTensor(),
                     normalize
                 ])
